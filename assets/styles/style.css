@@ -1,5 +1,7 @@
 * {
     font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: rgba(29, 47, 56, 1);
 }
 
 .h {
@@ -8,8 +10,21 @@
     font-weight: 400;
 }
 
+.h_section {
+    font-size: 38px;
+    line-height: 40px;
+
+}
+
 a {
     text-decoration: none;
+}
+
+.button {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(23, 165, 80, 1);
+    border-radius: 5px;
+    border: none;
 }
 
 header {
@@ -97,6 +112,7 @@ main {
 
 .span {
     font-weight: 700;
+    color: rgba(51, 51, 51, 1);
 }
 
 .p_affiliate {
@@ -109,9 +125,101 @@ main {
     height: 50px;
     font-size: 15px;
     line-height: 20px;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(23, 165, 80, 1);
-    border-radius: 5px;
-    border: none;
+}
 
+.section_blog {
+    margin-bottom: 74.3px;
+}
+
+.div_blog {
+    display: flex;
+    justify-content: space-between;
+    height: 551px;
+    margin-bottom: 74.3px;
+}
+
+.main-post {
+    width: 555px;
+    height: 496px
+}
+
+.image_main-post {
+    width: 555px;
+    height: 400px;
+}
+
+.h3_main-post {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+p_main-post {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.div_regular-posts {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 555px;
+    height: 490px;
+}
+
+.article_post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image_regular-post {
+    width: 245px;
+    height: 150px;
+}
+
+.h4_regular-post {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.img_a-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.a_all-posts {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.div_view-the-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: rgba(227, 235, 241, 1);
+}
+
+.div_img-and-h4 {
+    display: flex;
+    align-items: center;
+}
+
+.image_view-the-list {
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+}
+
+.h_view-the-list {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.button_view-the-list {
+    width: 111px;
+    height: 52px;
 }

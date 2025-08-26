@@ -13,6 +13,7 @@
 .h_section {
     font-size: 38px;
     line-height: 40px;
+    margin: 0px 0px 33.3px;
 
 }
 
@@ -25,6 +26,18 @@ a {
     background-color: rgba(23, 165, 80, 1);
     border-radius: 5px;
     border: none;
+}
+
+.img_a-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.a_all-posts,
+.a_all-rewiews {
+    font-size: 16px;
+    line-height: 20px;
 }
 
 header {
@@ -83,6 +96,7 @@ main {
     justify-content: space-around;
     align-items: center;
     height: 486px;
+    margin-bottom: 80.3px;
     background-color: rgba(227, 235, 241, 1);
 }
 
@@ -154,7 +168,7 @@ main {
     font-weight: 400;
 }
 
-p_main-post {
+.p_main-post {
     font-size: 15px;
     line-height: 20px;
 }
@@ -184,23 +198,14 @@ p_main-post {
     line-height: 25px;
 }
 
-.img_a-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 4px;
-}
-
-.a_all-posts {
-    font-size: 16px;
-    line-height: 20px;
-}
-
 .div_view-the-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-    background-color: rgba(227, 235, 241, 1);
+    margin-bottom: 97px;
+    background-image: url('/assets/images/img_background.png');
+    border-radius: 10px;
 }
 
 .div_img-and-h4 {
@@ -222,4 +227,60 @@ p_main-post {
 .button_view-the-list {
     width: 111px;
     height: 52px;
+}
+
+.section_products {
+    margin-bottom: 99.7px;
+}
+
+.div_container-products {
+    display: flex;
+    justify-content: space-between;
+    height: 371px;
+    margin-bottom: 40.3px;
+}
+
+.article_product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 357px;
+}
+
+
+.div_container-images {
+    position: relative;
+}
+
+.img_tag {
+    position: absolute;
+    z-index: 2;
+}
+
+.img_product-photo {
+    position: absolute;
+    z-index: 1;
+    width: 357px;
+    height: 200px;
+}
+
+.div_container-text-product {
+    height: 171px;
+    background-color: rgb(217, 225, 231);
+    box-sizing: border-box;
+    padding: 24px 0 0 23px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.h_product {
+    margin: 0;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.p_product {
+    font-size: 15px;
+    line-height: 20px;
 }

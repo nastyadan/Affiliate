@@ -14,7 +14,11 @@
     font-size: 38px;
     line-height: 40px;
     margin: 0px 0px 33.3px;
+}
 
+.h3 {
+    font-size: 30px;
+    line-height: 35px;
 }
 
 a {
@@ -162,12 +166,6 @@ main {
     height: 400px;
 }
 
-.h3_main-post {
-    font-size: 30px;
-    line-height: 35px;
-    font-weight: 400;
-}
-
 .p_main-post {
     font-size: 15px;
     line-height: 20px;
@@ -275,12 +273,119 @@ main {
 
 .h_product {
     margin: 0;
-    font-size: 30px;
-    line-height: 35px;
     text-align: center;
 }
 
 .p_product {
     font-size: 15px;
     line-height: 20px;
+}
+
+.section_signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 425px;
+    padding: 50.3px 50px;
+    background-image: url(/assets/images/img_background-big.png);
+}
+
+.div_signup {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 30.88px;
+}
+
+.img_signup {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.div_p-signup {
+    margin-bottom: 20.12px;
+}
+
+.p_signup {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.input_signup {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 31.12px;
+    border: 1px solid rgba(170, 188, 197, 1);
+    border-radius: 5px;
+}
+
+.button_signup {
+    width: 82px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: rgba(255, 199, 40, 1);
+    border: none;
+    border-radius: 5px;
+}
+
+.a_signup {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(83, 109, 122, 1);
+}
+
+footer {
+    padding: 19.97px 145px 20.03px;
+    background-color: rgb(230, 238, 241);
+}
+
+.div_footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_footer-info {
+
+    width: 356px;
+    border: 1px solid red
+}
+
+.logo_footer {
+    width: 175px;
+    height: 60px;
+    margin-bottom: 10.97px;
+}
+
+.icon_footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 19px;
+}
+
+.p_footer {
+    font-size: 19px;
+    line-height: 20px;
+}
+
+.span_footer {
+    font-weight: 700;
+}
+
+.div_footer-articles {
+
+    width: 356px;
+    border: 1px solid red
+}
+
+
+
+.div_footer-browse {
+
+    width: 356px;
+    border: 1px solid red
 }

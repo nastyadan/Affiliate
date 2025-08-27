@@ -377,15 +377,51 @@ footer {
 }
 
 .div_footer-articles {
-
     width: 356px;
     border: 1px solid red
 }
 
 
+.article_footer {
+    display: flex;
+}
+
+.image_footer {
+    width: 139px;
+    height: 100px;
+    margin-right: 9px;
+    border-radius: 7px;
+}
+
+.h6 {
+    font-size: 16px;
+    line-height: 18px;
+}
 
 .div_footer-browse {
-
     width: 356px;
+    font-size: 16px;
+    line-height: 20px;
     border: 1px solid red
+}
+
+.input_footer {}
+
+.button_search {
+    width: 82px;
+    height: 48px;
+    background-color: rgba(118, 143, 156, 1);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26.97px;
+}
+
+.a_footer-menu {
+    margin-bottom: 7px;
 }

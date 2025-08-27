@@ -347,12 +347,16 @@ footer {
 .div_footer-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60.3px;
+}
+
+.h_footer {
+    margin: 0 0 12px;
 }
 
 .div_footer-info {
 
     width: 356px;
-    border: 1px solid red
 }
 
 .logo_footer {
@@ -378,7 +382,6 @@ footer {
 
 .div_footer-articles {
     width: 356px;
-    border: 1px solid red
 }
 
 
@@ -402,14 +405,25 @@ footer {
     width: 356px;
     font-size: 16px;
     line-height: 20px;
-    border: 1px solid red
 }
 
-.input_footer {}
+.form_footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.input_footer {
+    width: calc(100% - 81px);
+    height: 48px;
+    border: 1px solid rgba(170, 188, 197, 1);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 
 .button_search {
     width: 82px;
-    height: 48px;
+    height: 50px;
     background-color: rgba(118, 143, 156, 1);
     border: none;
     border-top-right-radius: 5px;
@@ -419,9 +433,24 @@ footer {
 .menu_footer {
     display: flex;
     flex-direction: column;
-    margin-bottom: 26.97px;
+    margin-bottom: 19.97px;
 }
 
 .a_footer-menu {
     margin-bottom: 7px;
+}
+
+.hr_footer {
+    margin-bottom: 20px;
+}
+
+.div_footer-container-small {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer_a {
+    margin-right: 10px;
 }

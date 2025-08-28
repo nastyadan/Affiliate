@@ -1,7 +1,9 @@
+@import "colors.css";
+
 * {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    color: rgba(29, 47, 56, 1);
+    color: var(--font-color_main);
 }
 
 .h {
@@ -26,44 +28,44 @@ a {
 }
 
 a:hover {
-    color: rgba(23, 165, 80, 1);
+    color: var(--green-color);
     text-decoration: underline;
 }
 
 a:active {
-    color: rgba(83, 109, 122, 0.29);
+    color: var(--lightgray-color);
     text-decoration: none;
 }
 
 button:hover {
-    border: 4px solid rgba(83, 109, 122, 0.29);
+    border: 4px solid var(--lightgray-color);
     border-radius: 7px;
 }
 
 button:active {
-    border: 4px solid rgba(23, 165, 80, 1);
+    border: 4px solid var(--green-color);
 }
 
 article:hover {
-    border: 2px solid rgba(23, 165, 80, 1);
+    border: 2px solid var(--green-color);
     border-radius: 7px;
 }
 
 article:active {
-    border: 2px solid rgba(83, 109, 122, 0.29);
+    border: 2px solid var(--lightgray-color);
     border-radius: 7px;
 }
 
 input:hover {
-    border: 2px solid rgba(23, 165, 80, 1);
+    border: 2px solid var(--green-color);
 }
 
 
 
 
 .button {
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(23, 165, 80, 1);
+    color: var(--white_color);
+    background-color: var(--green-color);
     border-radius: 5px;
     border: none;
 }
@@ -123,8 +125,8 @@ header {
 }
 
 .hr_header {
-    border: 1px solid rgba(83, 109, 122, 0.29);
-    box-shadow: 0px 1px 8px 0px rgba(83, 109, 122, 0.29);
+    border: 1px solid var(--lightgray-color);
+    box-shadow: 0px 1px 8px 0px var(--lightgray-color);
 }
 
 main {
@@ -138,7 +140,7 @@ main {
     align-items: center;
     height: 486px;
     margin-bottom: 80.3px;
-    background-color: rgba(227, 235, 241, 1);
+    background-color: var(--background-color);
 }
 
 .image_section-affiliate {
@@ -152,7 +154,7 @@ main {
 }
 
 .h4_green {
-    color: rgba(16, 132, 63, 1);
+    color: var(--greenforh-color);
 }
 
 .h4 {
@@ -167,7 +169,7 @@ main {
 
 .span {
     font-weight: 700;
-    color: rgba(51, 51, 51, 1);
+    color: var(--span-color);
 }
 
 .p_affiliate {
@@ -301,7 +303,7 @@ main {
 
 .div_container-text-product {
     height: 171px;
-    background-color: rgb(217, 225, 231);
+    background-color: var(--backgroundgray-color);
     box-sizing: border-box;
     padding: 24px 0 0 23px;
     border-bottom-left-radius: 10px;
@@ -354,7 +356,7 @@ main {
     width: 100%;
     height: 50px;
     margin-bottom: 31.12px;
-    border: 1px solid rgba(170, 188, 197, 1);
+    border: 1px solid var(--inputborder-color);
     border-radius: 5px;
 }
 
@@ -365,7 +367,7 @@ main {
     font-size: 12px;
     line-height: 20px;
     font-weight: 700;
-    background-color: rgba(255, 199, 40, 1);
+    background-color: var(--yellow-color);
     border: none;
     border-radius: 5px;
 }
@@ -373,12 +375,12 @@ main {
 .a_signup {
     font-size: 12px;
     line-height: 20px;
-    color: rgba(83, 109, 122, 1);
+    color: var(--agray-color);
 }
 
 footer {
     padding: 19.97px 145px 20.03px;
-    background-color: rgb(230, 238, 241);
+    background-color: var(--bacgroundfooter-color);
 }
 
 .div_footer-container {
@@ -453,7 +455,7 @@ footer {
 .input_footer {
     width: calc(100% - 81px);
     height: 48px;
-    border: 1px solid rgba(170, 188, 197, 1);
+    border: 1px solid var(--inputborder-color);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -461,7 +463,7 @@ footer {
 .button_search {
     width: 82px;
     height: 50px;
-    background-color: rgba(118, 143, 156, 1);
+    background-color: var(--blue-color);
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
